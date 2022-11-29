@@ -1,30 +1,4 @@
-var infoArr: Array<number> = [3, 4, 5, 6]
-// console.log(infoArr)
 
-
-var dataArr = (newData: number[]) => {
-      return newData
-}
-
-var info = (dataOne: number[], dataTwo?: string): void => {
-      let comingData = dataOne
-      dataArr(comingData)
-      console.log(dataArr)
-
-};
-info([1, 2, 3, 4]);
-
-// var dataArray:string[]=['home','about','services','blog']
-
-// dataArray.map((fd:string)=>{
-//       let li=document.createElement('li')
-//       li.innerHTML+=fd
-//       let ul:any=document.querySelector<HTMLHtmlElement>('ul')
-//       ul.innerHTML+=fd
-
-
-// })
-var inform: any
 var row:any=document.querySelector('.cards .container-fluid .row')
 var btns:any=document.querySelectorAll('header .container button')
 fetch('https://fakestoreapi.com/products')
