@@ -1,0 +1,28 @@
+header {
+  height: 50px;
+}
+
+.cards .container-fluid {
+  width: 100%;
+}
+.cards .container-fluid .row {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+}
+.cards .container-fluid .card {
+  width: 18rem;
+}
+.cards .container-fluid .card img {
+  height: 250px;
+}
+.cards .container-fluid .card .card-body .rating {
+  display: flex;
+  gap: 10px;
+}
+.cards .container-fluid .card .card-body .card-title {
+  font-size: 17px;
+}
+.cards .container-fluid .card .card-body .card-text {
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */

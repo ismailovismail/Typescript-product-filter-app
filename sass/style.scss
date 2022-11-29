@@ -1,0 +1,35 @@
+header{
+    height: 50px;
+}
+
+.cards{
+    .container-fluid{
+        width: 100%;
+           
+        .row{
+            gap: 5px;
+            display: flex;
+            justify-content: center;
+          
+        }
+        .card{
+            width: 18rem;
+            img{
+                height: 250px;
+            }
+            .card-body{
+                .rating{
+                    display: flex;
+                    gap: 10px;
+                }
+                .card-title{
+                    font-size: 17px;
+                }
+                .card-text{
+                    
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
